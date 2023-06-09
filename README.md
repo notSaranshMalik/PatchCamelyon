@@ -46,3 +46,6 @@ I carried out an 10 epochs of SGD followed by 20 epochs of Adam gradient descent
 
 Giving us a fantastic, almost 85% accuracy, this model is incredibly accurate at finding the cancerous examples of patches, while not significantly overfitting on the training data. Trained in about 1 hour on a 1080Ti, this model is both quick to train and accurate to test on unseen data.
 
+# Code
+
+The `Model.ipynb` notebook contains the code for the final version of this program. It requires unzipped data, which can be downloaded from [here](https://github.com/basveeling/pcam). The cell near the bottom allows for parameter modifications.
